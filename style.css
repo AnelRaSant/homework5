@@ -1,0 +1,74 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  textarea{
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #e71a1a;
+    border-left: 1px solid black;
+    padding: 10px;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: rgb(111, 11, 114);
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+  
+  .description{
+    white-space: pre-wrap;
+  }
+  
+  .time-block{
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid rgb(196, 16, 166);;
+  }
+  
+  .hour {
+    background-color: #14d1c8;
+    color: #000000;
+    border-top: 1px dashed #86c415;
+  }
+  
+  .past {
+    background-color: #ec14a4;
+    color: white;
+  }
+  
+  .present {
+    background-color: #df87a4;
+    color: rgb(0, 0, 0);
+  }
+  
+  .future {
+    background-color: #d81d27;
+    color: rgb(0, 0, 0);
+  }
+  
+  .saveBtn {
+    border-left: 1px solid rgb(21, 240, 210);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(21, 237, 245);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+ .fa-folder{
+     position: relative;
+     top:25%;
+     left:25%;
+     font-size: 40px;   
+ };
